@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PAKGreen</string>
+    <string name="subtitle">Landscape Architecture Studio</string>
+    <string name="name">Aneta Wawrowicz</string>
+    <string name="title">Landscape Architect</string>
+    <string name="phone">+48 603 255 505</string>
+    <string name="mail">greenpak.wawrowicz@gmail.com</string>
+    <string name="contact">CONTACT</string>
+</resources>
