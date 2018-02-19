@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/colorPrimaryLighter"
     tools:context="com.example.android.pakgreen.MainActivity">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
@@ -22,7 +24,7 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:paddingBottom="12dp"
-        android:textColor="#FFFFFFFF"
+        android:textColor="@color/colorWhiteTitle"
         android:textSize="24sp"
         />
     <TextView
@@ -32,7 +34,7 @@
         android:paddingStart="16dp"
         android:background="@color/colorPrimary"
         android:paddingEnd="16dp"
-        android:textColor="#B3FFFFFF"
+        android:textColor="@color/colorWhiteSubtitle"
         android:paddingBottom="16dp"
         android:textSize="14sp" 
         />
@@ -44,7 +46,7 @@
         android:paddingEnd="16dp"
         android:paddingTop="24dp"
         android:textSize="24sp"
-        android:textColor="#DE000000"
+        android:textColor="@color/colorBlack"
         android:paddingBottom="12dp"
         />
 
@@ -55,7 +57,7 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:textSize="14sp"
-        android:textColor="#8A000000"
+        android:textColor="@color/colorBlackSubtitle"
         android:paddingBottom="16dp"
         />
 
@@ -66,7 +68,7 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:textSize="14sp"
-        android:textColor="#DE000000"
+        android:textColor="@color/colorBlack"
         android:paddingBottom="8dp"
         />
 
@@ -77,8 +79,8 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:textSize="14sp"
-        android:textColor="#DE000000"
+        android:textColor="@color/colorBlack"
         android:paddingBottom="16dp"
         />
-
 </LinearLayout>
+</ScrollView>

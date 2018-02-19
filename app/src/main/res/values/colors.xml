@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#558B2F</color>
     <color name="colorAccent">#689F38</color>
     <color name="colorPrimaryLighter">#DCEDC8</color>
+    <color name="colorWhiteTitle">#FFFFFFFF</color>
+    <color name="colorWhiteSubtitle">#B3FFFFFF</color>
+    <color name="colorBlack">#DE000000</color>
+    <color name="colorBlackSubtitle">#8A000000</color>
+
 </resources>
